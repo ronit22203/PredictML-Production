@@ -1,7 +1,5 @@
 # PredictML-Production: Hospital No-Show Prediction System
 
-> A full-stac├──├── README.md                   # You're hereREADME.md                   # You're here, production-ready ML system for predicting patient appointment no-shows — built for real-world deployment at healthcare ops scale.
-
 Note: Choosing to respect the NDA, I will only show my IP.
 
 ---
