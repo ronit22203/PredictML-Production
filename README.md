@@ -1,8 +1,8 @@
 # PredictML-Production: Hospital No-Show Prediction System
 
-> A full-stack, production-ready ML system for predicting patient appointment no-shows — built for real-world deployment at healthcare ops scale.
+> A full-stac├──├── README.md                   # You're hereREADME.md                   # You're here, production-ready ML system for predicting patient appointment no-shows — built for real-world deployment at healthcare ops scale.
 
-Note - Choosing to respect the NDA, i will only show my IP,
+Note: Choosing to respect the NDA, I will only show my IP.
 
 ---
 
@@ -26,7 +26,7 @@ This project predicts the likelihood of a patient **not showing up** for their a
 
 ---
 
-## 🔍 Models Trained
+## Models Trained
 
 - `Logistic Regression`: baseline
 - `Random Forest`: interpretable and stable
@@ -34,7 +34,7 @@ This project predicts the likelihood of a patient **not showing up** for their a
 
 ---
 
-## ⚖️ Metrics (Best Model: XGBoost)
+## Metrics (Best Model: XGBoost)
 
 | Metric               | Value      |
 |----------------------|------------|
@@ -45,13 +45,16 @@ This project predicts the likelihood of a patient **not showing up** for their a
 | Log Loss             | 0.62       |
 | MCC                  | 0.26       |
 
-> ⚠️ Optimized for **recall on the No-Show class**, to avoid missing at-risk cases even if precision drops.
+> **Note:** Optimized for **recall on the No-Show class**, to avoid missing at-risk cases even if precision drops.
 
 ---
 
+## Project Structure
+
+```
 PredictML-Production/
 │
-├── data/                      #Anonymized Data
+├── data/                      # Anonymized Data
 ├── notebooks/                 # EDA and model development experiments
 ├── src/
 │   ├── preprocessing.py        # Handles all data cleaning & feature engineering
@@ -71,8 +74,10 @@ PredictML-Production/
 ├── Dockerfile                  # For full environment reproducibility
 ├── Makefile                    # CLI entry points to run training, inference, etc.
 ├── requirements.txt
-├── README.md                   # ← You’re here
+├── README.md                   # You're here
+```
 
+---
 
 ## Tech Stack
 
