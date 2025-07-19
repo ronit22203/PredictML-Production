@@ -65,10 +65,7 @@ PredictML-Production/
 │
 ├── app/
 │   └── flask_app.py            # Flask-based API for local inference (optional)
-│
-├── dags/                       # Airflow DAGs for scheduling and automation
-│   └── no_show_pipeline.py
-│
+│   
 ├── Dockerfile                  # For full environment reproducibility
 ├── Makefile                    # CLI entry points to run training, inference, etc.
 ├── requirements.txt
@@ -85,7 +82,7 @@ PredictML-Production/
 | ML Models   | scikit-learn, XGBoost                        |
 | Explainability | SHAP                                     |
 | Pipeline    | Python, config JSON, modular scripts         |
-| Infra       | Docker, Airflow-ready, Flask UI compatible   |
+| Infra       | Docker, Flask UI compatible   |
 | Cloud Ready | Azure AutoML (tested), S3, CI/CD via GitHub Actions |
 
 ---
