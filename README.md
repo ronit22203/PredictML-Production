@@ -37,7 +37,7 @@ This project predicts the likelihood of a patient **not showing up** for their a
 | Metric               | Value      |
 |----------------------|------------|
 | **Recall (No-Show)** | ~90%       |
-| Precision            | ~50%       |
+| Precision            | ~60%       |
 | F1 Score             | ~60%       |
 | AUC-ROC              | 0.69+      |
 | Log Loss             | 0.62       |
