@@ -46,7 +46,3 @@ The following multi-step process was executed to de-identify the original datase
 - New features were derived from the original data before anonymization to retain predictive power:
   - **DaysInAdvance:** Calculated from the original `ScheduledDay` and `AppointmentDay`.
   - **DayOfWeek:** Extracted from the `AppointmentDay`.
-
-## 4. Anonymized Dataset
-
-- `noshow_data_anonymized.csv`
