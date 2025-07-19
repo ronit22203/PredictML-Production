@@ -19,7 +19,7 @@ This project predicts the likelihood of a patient **not showing up** for their a
   - Day-of-week effects
   - Age groups
   - Lead time buckets
-  - Branch-wise breakdowns (e.g., BS, DE, NS, BD)
+  - Branch-wise breakdowns
   - No-show frequency by patient
 
 ---
