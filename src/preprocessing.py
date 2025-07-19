@@ -301,7 +301,17 @@ def main():
     
     try:
         input_path = sys.argv[1]
-        output_path = sys.argv[2] if len(sys.argv) > 2 else f"processed_{input_path}"
+        
+        # Generate output path if not provided
+        if len(sys.argv) > 2:
+            output_path = sys.argv[2]
+        else:
+            # Extract filename and create processed version in same directory
+            import os
+            input_dir = os.path.dirname(input_path)
+            input_filename = os.path.basename(input_path)
+            name, ext = os.path.splitext(input_filename)
+            output_path = os.path.join(input_dir, f"processed_{name}{ext}")
         
         # Initialize preprocessor
         preprocessor = HealthcarePreprocessor()
