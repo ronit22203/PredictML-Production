@@ -1,5 +1,7 @@
 # Healthcare Appointment No-Show Prediction Pipeline
 
+*note - Notebook was refined from its original form, does not contain output for code cells - yet*
+
 ## Project Overview
 This project implements a comprehensive machine learning pipeline for predicting healthcare appointment no-shows. The pipeline is split across three notebooks, each focusing on a specific aspect of the ML workflow.
 
