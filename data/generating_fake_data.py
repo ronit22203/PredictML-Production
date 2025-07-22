@@ -7,7 +7,7 @@ from sdv.metadata import SingleTableMetadata
 #CTGAN is a type of generative model that can learn the distribution of a dataset and generate new samples that are similar to the original data.
 
 #Loading the real data
-real_data = pd.read_csv('/Users/ronitsaxena/Downloads/inputdatareal.csv')
+real_data = pd.read_csv('placeholder.csv')
 
 # Drop high cardinality categorical columns to reduce dimensionality
 threshold = 50

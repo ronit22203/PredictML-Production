@@ -7,7 +7,7 @@ import string
 
 # Read the CSV file into a DataFrame    
 
-df = pd.read_csv('/Users/ronitsaxena/Developer/Personal/predictml-production/data/synthetic_data.csv')
+df = pd.read_csv('placeholder.csv')
 
 df['Location'] = df['Location'].astype(str)
 # Function to generate random strings but meaningful values
@@ -29,4 +29,4 @@ def generate_random_doctor_name():
 
 df['DoctorName'] = df['DoctorName'].apply(lambda x: generate_random_doctor_name())
 
-df.to_csv('/Users/ronitsaxena/Developer/Personal/predictml-production/data/synthetic_data.csv', index=False)
+df.to_csv('data/synthetic_data.csv', index=False)
