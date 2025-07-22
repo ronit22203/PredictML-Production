@@ -1,6 +1,17 @@
 # End-to-End ML Pipeline-Production: Hospital No-Show Prediction System
 
-Note: Choosing to respect the NDA, I will only show my IP.
+<!-- Badges -->
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Machine Learning](https://img.shields.io/badge/ML-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
+[![Framework](https://img.shields.io/badge/Framework-scikit--learn-F7931E.svg)](https://scikit-learn.org/)
+[![Data Science](https://img.shields.io/badge/Data%20Science-Pandas-150458.svg)](https://pandas.pydata.org/)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED.svg)](https://www.docker.com/)
+[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-F37626.svg)](https://jupyter.org/)
+[![Status](https://img.shields.io/badge/Status-InProgress%20-brightgreen.svg)]()
+
+> **Note:** Respecting NDA compliance - showcasing technical implementation and methodology only.
 
 ---
 
@@ -82,7 +93,7 @@ PredictML-Production/
 | ML Models   | scikit-learn, XGBoost                        |
 | Explainability | SHAP                                     |
 | Pipeline    | Python, config JSON, modular scripts         |
-| Infra       | Docker, Flask UI compatible   |
+| Infra       | Docker, Flask UI compatible(though not integrated)   |
 | Cloud Ready | Azure AutoML (tested), S3, CI/CD via GitHub Actions |
 
 ---
